@@ -1,0 +1,24 @@
+CESM.run Toolkit Binary License
+
+Copyright (c) 2026 CESM.run Toolkit authors. All rights reserved.
+
+Permission is granted to download, install, and use the distributed binary for
+evaluation, research, and authorized operational use.
+
+You may not:
+
+1. reverse engineer, deobfuscate, disassemble, or attempt to recover source code;
+2. remove or bypass license, protection, or usage-control mechanisms;
+3. redistribute, resell, sublicense, or provide the binary as a hosted service
+   without written permission;
+4. modify the binary and redistribute the modified binary;
+5. use this package in violation of third-party software licenses or cluster
+   usage policies.
+
+The software is provided "as is", without warranty of any kind. The authors are
+not liable for any claim, damage, data loss, build failure, or other liability
+arising from the use of this software.
+
+For commercial authorization, redistribution permission, or enterprise support,
+contact the repository owner.
+
