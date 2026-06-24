@@ -55,7 +55,7 @@ sha256sum -c SHA256SUMS
 期望校验值：
 
 ```text
-4e0e64380db344b425c7cb352dc6f0ee3e862c9d7c41adc7ca6ebd51bd0c2ad6  cesmrun-linux-x86_64
+cd30c2034263c7b1949ec75798a15a50561b5ac23e00a808d64eea0a6b910b16  cesmrun-linux-x86_64
 ```
 
 ## 基本用法
@@ -66,6 +66,13 @@ sha256sum -c SHA256SUMS
 ./cesmrun-linux-x86_64 install --prefix $HOME/opt/cesm-libs --dry-run
 ./cesmrun-linux-x86_64 configure-cesm1 --cesm1-dir /path/to/cesm1 --dry-run
 ./cesmrun-linux-x86_64 configure-cesm2 --cesm2-dir /path/to/cesm2 --dry-run
+```
+
+`doctor`、`--help` 和 `--version` 免费使用。安装和配置命令需要签名 license：
+
+```bash
+./cesmrun-linux-x86_64 license activate /path/to/license.cesmrun
+./cesmrun-linux-x86_64 license status
 ```
 
 `doctor` 会把可复用的 CESM 环境信息写入：
@@ -114,4 +121,3 @@ export CESMRUN_PACKAGE_DIR=/path/to/cesmrun_package
 
 使用条款见 [LICENSE](LICENSE)。未经许可，不得逆向、反混淆、重新分发或转售
 该二进制文件。
-

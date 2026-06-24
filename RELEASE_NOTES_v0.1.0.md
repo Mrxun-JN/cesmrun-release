@@ -26,7 +26,7 @@ chmod +x cesmrun-linux-x86_64
 Expected checksum:
 
 ```text
-4e0e64380db344b425c7cb352dc6f0ee3e862c9d7c41adc7ca6ebd51bd0c2ad6  cesmrun-linux-x86_64
+cd30c2034263c7b1949ec75798a15a50561b5ac23e00a808d64eea0a6b910b16  cesmrun-linux-x86_64
 ```
 
 ## Highlights
@@ -39,6 +39,7 @@ Expected checksum:
   and NetCDF-Fortran from bundled source archives.
 - Added CESM1 machine/compiler XML generation.
 - Added CESM2 CIME machine/compiler/batch XML generation.
+- Added signed license activation and status commands.
 - Distributed as a Linux x86_64 executable.
 
 ## Basic Usage
@@ -48,6 +49,14 @@ Expected checksum:
 ./cesmrun-linux-x86_64 install --prefix $HOME/opt/cesm-libs --dry-run
 ./cesmrun-linux-x86_64 configure-cesm1 --cesm1-dir /path/to/cesm1 --dry-run
 ./cesmrun-linux-x86_64 configure-cesm2 --cesm2-dir /path/to/cesm2 --dry-run
+```
+
+License commands:
+
+```bash
+./cesmrun-linux-x86_64 license activate /path/to/license.cesmrun
+./cesmrun-linux-x86_64 license status
+./cesmrun-linux-x86_64 license machine-id
 ```
 
 ## Notes
