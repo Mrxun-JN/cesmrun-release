@@ -26,7 +26,7 @@ chmod +x cesmrun-linux-x86_64
 Expected checksum:
 
 ```text
-cd30c2034263c7b1949ec75798a15a50561b5ac23e00a808d64eea0a6b910b16  cesmrun-linux-x86_64
+92ba80809841eff755ec958d154404e94ad19fe211e3bacaf7410b07e5846491  cesmrun-linux-x86_64
 ```
 
 ## Highlights
