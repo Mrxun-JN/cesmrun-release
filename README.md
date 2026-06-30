@@ -31,7 +31,7 @@ Or install manually:
 
 ```bash
 curl -L -o cesmrun \
-  https://github.com/Mrxun-JN/cesmrun-release/releases/download/v0.1.0/cesmrun-linux-x86_64
+  https://github.com/Mrxun-JN/cesmrun-release/releases/download/v0.9.0/cesmrun-linux-x86_64
 chmod +x cesmrun
 ./cesmrun --version
 ```
@@ -55,7 +55,7 @@ sha256sum -c SHA256SUMS
 Expected checksum:
 
 ```text
-92ba80809841eff755ec958d154404e94ad19fe211e3bacaf7410b07e5846491  cesmrun-linux-x86_64
+021eddcacbf968bf849219d390d009f8533375051caecfb9aa5d1ff29e9719f7  cesmrun-linux-x86_64
 ```
 
 ## Basic Usage

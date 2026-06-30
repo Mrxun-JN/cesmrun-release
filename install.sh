@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-VERSION="${CESMRUN_VERSION:-0.1.0}"
+VERSION="${CESMRUN_VERSION:-0.9.0}"
 BINARY="${CESMRUN_BINARY:-cesmrun-linux-x86_64}"
 INSTALL_DIR="${CESMRUN_INSTALL_DIR:-$HOME/.local/bin}"
 BASE_URL="https://github.com/Mrxun-JN/cesmrun-release/releases/download/v${VERSION}"
@@ -41,4 +41,3 @@ echo
 "${INSTALL_DIR}/cesmrun" --version
 echo "Installed to ${INSTALL_DIR}/cesmrun"
 echo "Make sure ${INSTALL_DIR} is in your PATH."
-
